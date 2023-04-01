@@ -6,13 +6,14 @@ import { Box, Flex, Text } from '@chakra-ui/react';
 
 export default function Navbar() {
   return (
-    <Flex alignItems="center" justifyContent="center" textAlign="center" flexWrap="wrap">
-    <div className={styles.navbar}>
-        <Text>Contact</Text>
-        <Text>Gallery</Text>
-        <Text>Dogs</Text>
-        <Text>Merch</Text>
-    </div>
+    <Flex alignItems="center" justifyContent="center" textAlign="right" flexWrap="wrap">
+      <div className={styles.navbar}>
+      <Text>
+          <Link href="/index" className={styles.headerlinks}>Contact</Link>
+          <Link href="/index" className={styles.headerlinks}>Gallery</Link>
+          <Link href="/index" className={styles.headerlinks}>Merchandise</Link>
+        </Text>
+      </div>
     </Flex>
   )
 }

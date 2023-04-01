@@ -5,7 +5,8 @@ import headImage from "../../public/images/banner.png";
 import insta from '../../public/images/insta.png';
 import git from '../../public/images/git.png';
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
+import Navbar from './Navbar.js';
 
 
 export default function HeaderBar() {
@@ -31,6 +32,8 @@ export default function HeaderBar() {
                 className={styles.github} />
               </Link>
           </Box>
+
+          <Navbar />
             
 
                 <Image
