@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css';
 import { Heading, Flex, Text } from '@chakra-ui/react';
 import headImage from "../../public/images/peggy-paulson-brittany.jpeg";
 import HeaderBar from './HeaderBar.js';
+import Grid from './Grid.js';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,6 +23,7 @@ export default function Home() {
         
       </Head>
       <HeaderBar />
+      <Grid />
       
    
    

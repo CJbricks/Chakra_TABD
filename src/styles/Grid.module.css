@@ -1,0 +1,14 @@
+
+.gridone {
+    background-color: #00aeef;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+}
+
+.gridcont {
+    margin-left: 12%;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
