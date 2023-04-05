@@ -5,6 +5,7 @@ import headImage from "../../public/images/peggy-paulson-brittany.jpeg";
 import HeaderBar from './HeaderBar.js';
 import Grid from './Grid.js';
 import AboutSection from './AboutSection.js';
+import Location from './Location.js';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       </Head>
       <HeaderBar />
       <AboutSection />
+      <Location />
       <Grid />
       
     </>
