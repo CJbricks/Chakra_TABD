@@ -1,6 +1,8 @@
 
-.imagebird {
-    float: left;
+.birdbox {
+    object-fit: fill;
+    margin-left: 5%;
+    padding-left: 10%;
 }
 
 .flex {
