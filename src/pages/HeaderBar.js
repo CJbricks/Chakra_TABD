@@ -32,7 +32,7 @@ export default function HeaderBar() {
                 className={styles.github} />
               </Link>
           </Box>
-            
+            <Navbar />
 
                 <Image
                 src={headImage}

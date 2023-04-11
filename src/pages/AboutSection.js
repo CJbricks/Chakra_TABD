@@ -18,10 +18,10 @@ export default function
             className={styles.imagebird} />
         </Circle>
          <Box className={styles.textflex}>
-            <Text textAlign="center" fontFamily="owners" ml={5} mr={35} mt={20} fontSize="2em" fontWeight={700} color="orange.400">
+            <Text textAlign="center" fontFamily="octin-college, sans-serif;" ml={5} mr={35} mt={20} fontSize="2em" fontWeight={700} color="orange.400">
                 On Point's mission:
                 <br />
-                Our goal is to bring out the natural instincts in your Bird dog
+                Our goal is to bring out the natural instincts in your Bird Dog.
                 <br />
                 Field and Balanced Obedience Training
                 to improve your dog's behavior and performance in the field

@@ -22,7 +22,7 @@ export default function Grid() {
               className={styles.image}
                />
             </Box>
-            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.700">
+            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.50">
               <Image 
                 src={boxTwo}
                 width={300}
@@ -31,7 +31,7 @@ export default function Grid() {
                 className={styles.image}
                 />
             </Box>
-            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.900">
+            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.50">
               <Image 
                 src={boxThree}
                 width={300}
