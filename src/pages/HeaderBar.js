@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '@/styles/Home.module.css';
 import { Flex, Text, Box } from '@chakra-ui/react';
-import headImage from "../../public/images/banner.png";
+import headImage from "../../public/images/bannedonpoint.jpg";
 import insta from '../../public/images/insta.png';
 import git from '../../public/images/git.png';
 import Image from 'next/image';
@@ -32,8 +32,6 @@ export default function HeaderBar() {
                 className={styles.github} />
               </Link>
           </Box>
-
-          <Navbar />
             
 
                 <Image

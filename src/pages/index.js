@@ -18,6 +18,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.typekit.net/gkk1jyc.css"></link>
         <link rel="stylesheet" href="https://use.typekit.net/vjj0zuy.css"></link>
         <link rel="stylesheet" href="https://use.typekit.net/vjj0zuy.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/eji5tuw.css"></link>
         
       </Head>
       <HeaderBar />

@@ -11,9 +11,9 @@ export default function Grid() {
   return (
     <Center>
       <div className={styles.gridcont}>
-        <SimpleGrid columns={3} gridSpacing={2} backgroundColor="#f2f2f2">
+        <SimpleGrid columns={3} gridSpacing={2}>
         
-            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25}>
+            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.50">
               <Image 
               src={boxOne}
               width={300}
@@ -22,7 +22,7 @@ export default function Grid() {
               className={styles.image}
                />
             </Box>
-            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25}>
+            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.700">
               <Image 
                 src={boxTwo}
                 width={300}
@@ -31,7 +31,7 @@ export default function Grid() {
                 className={styles.image}
                 />
             </Box>
-            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25}>
+            <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} pl={75} pt={25} bg="yellow.900">
               <Image 
                 src={boxThree}
                 width={300}

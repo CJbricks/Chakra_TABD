@@ -7,8 +7,9 @@ import Image from 'next/image';
 export default function 
 () {
   return (
-    <SimpleGrid columns={2} spacingX="5px" backgroundColor="#00aeef" padding={8} mb={1}>
-        <Circle className={styles.flex} ml={100} border="2px solid #90c2f4">
+    <div className={styles.gridOverBox}>
+    <Flex  bg='orange.100' padding={8}>
+        <Circle className={styles.flex} ml={100} w='500px'>
             <Image 
             src={johnCott}
             width={600}
@@ -17,7 +18,7 @@ export default function
             className={styles.imagebird} />
         </Circle>
          <Box className={styles.textflex}>
-            <Text textAlign="center" fontFamily="owners" ml={5} mr={35} mt={20} fontSize="2em" fontWeight={700} color="#f2f2f2" backgroundColor="#00aeef" >
+            <Text textAlign="center" fontFamily="owners" ml={5} mr={35} mt={20} fontSize="2em" fontWeight={700} color="orange.400">
                 On Point's mission:
                 <br />
                 Our goal is to bring out the natural instincts in your Bird dog
@@ -26,6 +27,7 @@ export default function
                 to improve your dog's behavior and performance in the field
             </Text>
           </Box>
-    </SimpleGrid>
+    </Flex>
+    </div>
   )
 }

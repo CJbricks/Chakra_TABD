@@ -1,9 +1,10 @@
 
 .birdbox {
     object-fit: fill;
-    margin-left: 5%;
-    padding-left: 10%;
+    width: 100%;
 }
+
+
 
 .flex {
     /* border: 1px solid red; */
@@ -13,6 +14,27 @@
     object-fit: cover;
     overflow: hidden;
     
+}
+
+@media only screen and (max-width: 600px){
+    @media only screen and (max-width: 480px){
+        .gridOverBox {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            overflow: hidden;
+        }
+        .flex {
+            width: 250px;
+            height: auto;
+
+        }
+
+        .textflex {
+            width: 40%;
+            height: auto;
+        }
+    }
 }
 
 
