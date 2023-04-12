@@ -6,6 +6,7 @@ import HeaderBar from './HeaderBar.js';
 import Grid from './Grid.js';
 import AboutSection from './AboutSection.js';
 import Location from './Location.js';
+import MidBody from './MidBody.js';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <HeaderBar />
       <AboutSection />
       <Location />
-      <Grid />
+      <MidBody />
       
     </>
   )

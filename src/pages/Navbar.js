@@ -7,15 +7,16 @@ import { Box, Flex, Text, Center } from '@chakra-ui/react';
 export default function Navbar() {
   return (
     <Flex alignItems="center" justifyContent="center" textAlign="center" flexWrap="wrap">
-      <div className={styles.navbar}>
+      <Box className={styles.navbar}>
       <Center>
       <Text fontFamily='octin-college, sans-serif;' fontWeight={400} fontSize='2.25em' w="100%" color='yellow.50'>
           <Link href="/index" className={styles.headerlinks}>Contact</Link>
           <Link href="/index" className={styles.headerlinks}>Gallery</Link>
           <Link href="/index" className={styles.headerlinks}>FAQ</Link>
+          <Link href="/index" className={styles.headerlinks}>PROGRAMS</Link>
         </Text>
         </Center>
-      </div>
+      </Box>
     </Flex>
   )
 }
