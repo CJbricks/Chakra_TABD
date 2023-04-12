@@ -1,0 +1,17 @@
+
+.logobox {
+    position: absolute;
+    margin: 2%;
+    object-fit: fill;
+  }
+
+  .logo {
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 2%;
+  }
+
+  .logo:hover {
+    background-color: orange;
+    border: 1px solid orange;
+  }

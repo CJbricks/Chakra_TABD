@@ -7,6 +7,7 @@ import Grid from './Grid.js';
 import AboutSection from './AboutSection.js';
 import Location from './Location.js';
 import MidBody from './MidBody.js';
+import BrickLogo from './BrickLogo.js';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.typekit.net/eji5tuw.css"></link>
         
       </Head>
+      <BrickLogo />
       <HeaderBar />
       <AboutSection />
       <Location />
