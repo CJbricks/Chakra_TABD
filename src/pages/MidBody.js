@@ -9,7 +9,7 @@ import txIcon from '../../public/images/tx.png';
 export default function MidBody() {
   return (
     <div className={styles.headbox} >
-        <Flex  flexWrap="wrap" alingItems="center" justifyContent="center" maxW="100%">
+        <Flex  flexWrap="wrap" alingItems="center" justifyContent="center" maxW="100%" bg="yellow.50">
                 <Image
                     src={programImage}
                     alt='body-image-programs'

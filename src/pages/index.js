@@ -28,6 +28,7 @@ export default function Home() {
       <AboutSection />
       <Location />
       <MidBody />
+      <Grid />
       
     </>
   )

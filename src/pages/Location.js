@@ -11,15 +11,17 @@ export default function Location() {
     <>
     <Flex flexWrap="wrap" justifyContent="center" alignItems="center" pl={20} bg='orange.400'>
       <Center>
-        <Box mr={175}>
-            <Text fontFamily="octin-college, sans-serif;" textAlign="center" ml={15} mr={5} fontSize="2.5em" fontWeight={400} color='orange.50' p={1}>
+        <Box mr={200}>
+            <Text fontFamily="octin-college, sans-serif;" textAlign="center" ml={15} mr={5} fontSize="2.2em" fontWeight={400} color='orange.50' p={1}>
+              We work with: 
+              <br />
               American Brittany,
               <br />
-              German Short Haired Pointer,
+              GSP, NovaScotia Duck Toller,
               <br />
               Griffon, Viszla,
               <br /> 
-              and more. 
+              and more! 
             </Text>
         </Box>
         <Spacer />
