@@ -8,6 +8,7 @@ import AboutSection from './AboutSection.js';
 import Location from './Location.js';
 import MidBody from './MidBody.js';
 import BrickLogo from './BrickLogo.js';
+import Footer from './Footer.js';
 
 export default function Home() {
   return (
@@ -24,12 +25,12 @@ export default function Home() {
         
       </Head>
       <BrickLogo />
-      <HeaderBar />
-      <AboutSection />
-      <Location />
-      <MidBody />
-      <Grid />
-      
+        <HeaderBar />
+          <AboutSection />
+          <Location />
+          <MidBody />
+          <Grid />
+        <Footer />
     </>
   )
 }
