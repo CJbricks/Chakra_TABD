@@ -12,7 +12,7 @@ import Navbar from './Navbar.js';
 export default function HeaderBar() {
   return (
     <div className={styles.headbox}>
-        <Flex flexWrap="wrap" alingItems="center" textAlign="center" justifyContent="center" maxW="100%">
+        <Flex flexWrap="wrap" alingItems="center" textAlign="center" justifyContent="center" w={["sm", "md", "100%"]}>
           <Box alignItems="center" justifyContent="center" marginTop={2} marginBottom={2}>
             <Link href="https://www.instagram.com/rangitos_way/" target="_blank">
                 <Image

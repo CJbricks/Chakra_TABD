@@ -9,7 +9,7 @@ export default function Navbar() {
     <Flex alignItems="center" justifyContent="center" textAlign="center" flexWrap="wrap">
       <Box className={styles.navbar}>
       <Center>
-      <Text fontFamily='octin-college, sans-serif;' fontWeight={400} fontSize='2.25em' w="100%" color='yellow.50'>
+      <Text fontFamily='octin-college, sans-serif;' fontWeight={400} fontSize={["1rem", "2rem", '2.25em']}  w="100%" color='yellow.50'>
           <Link href="/index" className={styles.headerlinks}>Contact</Link>
           <Link href="/index" className={styles.headerlinks}>Gallery</Link>
           <Link href="/index" className={styles.headerlinks}>FAQ</Link>

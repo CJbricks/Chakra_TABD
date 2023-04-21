@@ -15,3 +15,11 @@
     background-color: orange;
     border: 1px solid orange;
   }
+
+  
+    @media only screen and (max-width: 480px){
+      .logobox {
+        display: none;
+      }
+    }
+  
