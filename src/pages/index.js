@@ -9,6 +9,7 @@ import Location from './Location.js';
 import MidBody from './MidBody.js';
 import BrickLogo from './BrickLogo.js';
 import Footer from './Footer.js';
+import Form from './Form.js';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           <Location />
           <MidBody />
           <Grid />
+          <Form />
         <Footer />
     </>
   )
