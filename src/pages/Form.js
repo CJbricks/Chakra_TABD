@@ -9,6 +9,7 @@ import FormBar from './FormBar.js';
 
 export default function Form() {
 
+  //Empty array to store array of input info
   const stateArr = [];
 
   // state for all input fields
@@ -17,6 +18,7 @@ export default function Form() {
   const [breed, setBreed] = useState("")
   const [comment, setComment] = useState("")
 
+  // Push to array
   stateArr.push([email, name, breed, comment])
 
   return (
@@ -32,9 +34,8 @@ export default function Form() {
                     <Input 
                     type='email'
                     size="sm"
-                    onChange={(e) => 
-                      setEmail(e.target.value)
-                    }
+                    onChange={(e) => setEmail(e.target.value)}
+                    
                      />
               <FormLabel>
                 Full Name

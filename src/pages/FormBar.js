@@ -15,7 +15,7 @@ export default function FormBar() {
                         mb={2}
                         ml={2}
                         mr={4}>
-                            Shoot us an email for more info!</Text>
+                            Request more information about our programs.</Text>
                         
                         
         </Box>

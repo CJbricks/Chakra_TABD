@@ -12,8 +12,8 @@ export default function Footer() {
               
                 <Box width="50%" pl={75}>
                   <Link href='https://maps.google.com'>
-                    <Text color="teal.500" fontFamily="owners">
-                      Visit us in person!
+                    <Text color="teal.600" fontFamily="owners">
+                      Visit us in person
                     </Text>
                     <Text color="teal.600" fontFamily="owners">
                       303-555-3663
@@ -30,7 +30,7 @@ export default function Footer() {
                   <FootIcons />
                 </Box>
                 <Box width="50%" pl={75} fontFamily="owners">
-                  <Text color="teal.500">
+                  <Text color="teal.600">
                     Hours:
                   </Text>
                   <Text color="blackAlph.700">

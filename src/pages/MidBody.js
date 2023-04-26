@@ -18,7 +18,7 @@ export default function MidBody() {
                     className={styles.headimage}
                     />
             <div>
-                <Box display='inline-flex' alignItems='center' justifyContent='center'>
+                <Box display='inline-flex' alignItems='center' justifyContent='center' p={2}>
                     <Text 
                     fontFamily='octin-college, sans-serif;' 
                     fontWeight={600} 
@@ -28,7 +28,7 @@ export default function MidBody() {
                     mt={2}
                     mb={2}
                     ml={2}
-                    mr={4}>Located in Austin TX.</Text>
+                    mr={4}>Located in Austin, TX.</Text>
                         <Image 
                         src={txIcon}
                         width={30}
