@@ -11,7 +11,7 @@ export default function Grid() {
   return (
     <Center>
       <div className={styles.gridcont}>
-        <SimpleGrid columns={3} gridSpacing={2}>
+        <SimpleGrid columns={[1, 1, 3]} gridSpacing={2}>
             <Box textAlign="center" alignItems="center" justifyContent="center"  className={styles.gridone} p={10} bg="orange.100">
               <Text fontFamily="octin-college, sans-serif;" fontWeight={700} fontSize='1.5em'>
                 Obedience Training
