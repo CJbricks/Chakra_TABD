@@ -3,6 +3,7 @@
     position: absolute;
     margin: 2%;
     object-fit: fill;
+    display: none;
   }
 
   .logo {
