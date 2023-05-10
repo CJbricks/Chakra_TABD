@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Box, SimpleGrid, Center } from '@chakra-ui/react';
+import { Text, Box, SimpleGrid, Container } from '@chakra-ui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/Grid.module.css';
@@ -8,28 +8,29 @@ import FootIcons from './FootIcons.js';
 export default function Footer() {
   return (
     <>
-            <SimpleGrid columns={3} alignItems="center" justifyContent="center" bg="orange.100" p={3}>
-              
-                <Box width="50%" pl={75}>
-                  <Link href='https://maps.google.com'>
-                    <Text color="teal.600" fontFamily="owners">
-                      Visit us in person
-                    </Text>
-                    <Text color="teal.600" fontFamily="owners">
-                      303-555-3663
-                    </Text>
-                    <Text fontFamily="owners" color="blackAlpha.700">
-                    9020 QUAIL BLVD #108
-                    AUSTIN TX 78758-5720
-                    USA
-                    </Text>
-                    
-                  </Link>
+            <SimpleGrid columns={[1, 1, 3]} alignItems="center" justifyContent="center" bg="orange.100" p={3} >
+                <Box width="50%" pl={50} mb={[6, 6, 0]}>
+                  <Container>
+                    <Link href='https://maps.google.com'>
+                      <Text color="teal.600" fontFamily="owners">
+                        Visit us in person
+                      </Text>
+                      <Text color="teal.600" fontFamily="owners">
+                        303-555-3663
+                      </Text>
+                      <Text fontFamily="owners" color="blackAlpha.700">
+                      9020 QUAIL BLVD #108
+                      AUSTIN TX 78758-5720
+                      USA
+                      </Text>
+                      
+                    </Link>
+                  </Container>
                 </Box>
-                <Box width="50%" pl={75} display="inline">
+                <Box width="50%" pl={50} display="inline" mb={[6, 6, 0]}>
                   <FootIcons />
                 </Box>
-                <Box width="50%" pl={75} fontFamily="owners">
+                <Box width="50%" pl={50} fontFamily="owners" mb={[6, 6, 0]}>
                   <Text color="teal.600">
                     Hours:
                   </Text>

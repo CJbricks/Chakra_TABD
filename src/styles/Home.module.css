@@ -35,6 +35,11 @@
 }
 
 
+.icons:hover {
+  scale: 1.45;
+}
+
+
 .headerlinks {
   margin: 2%;
 }
@@ -47,14 +52,15 @@
 
 @media only screen and (max-width:480px){
 
-  .headimage {
+  .headbox {
     width: 100%;
     height: auto;
   }
 
-  .navbar {
-    color: #f2f2f2;
-    margin-right: 10%;
+  .headimage {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
   }
 
   .github {

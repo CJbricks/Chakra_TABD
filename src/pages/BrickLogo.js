@@ -7,7 +7,7 @@ import clogBricks from '../../public/images/cloglogo.png';
 export default function BrickLogo() {
   return (
     <div className={styles.logobox}>
-        <Link href="http://leftydesign.vercel.app" target="_blank">
+        <Link href="http://bricks-ten.vercel.app" target="_blank">
             <Image 
             src={clogBricks}
             alt="logo-link"

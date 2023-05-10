@@ -1,36 +1,71 @@
 import React from 'react';
-import { Circle, Box, Center, Text, Flex, Spacer, SimpleGrid } from '@chakra-ui/react';
+import { Circle, Box, Center, Text, Container, Spacer, SimpleGrid, Image } from '@chakra-ui/react';
 import styles from '@/styles/Body.module.css';
-import johnCott from '../../public/images/john-cottrell.jpeg';
-import Image from 'next/image';
 
 export default function 
 () {
   return (
-    <div className={styles.gridOverBox}>
-    <SimpleGrid columns={[1, 1, 2]} gridSpacing={5} bg='orange.100' padding={6} w="100%" flexWrap="wrap">
-      <Box w="50%" mr="150px">
-          <Circle className={styles.flex} ml={100} w='500px' bg="orange.100">
+   
+    <SimpleGrid columns={[1, 1, 3]} gridSpacing={2} bg='orange.100' padding={2} w="100%" pl={[10, 15, 20]}>
+      <Container mt={5}>
+      <Circle mb={5}>
               <Image 
-              src={johnCott}
-              width={600}
-              height={200}
+              src="/images/john-cottrell.jpeg"
+              width={[200, 250, 350]}
+              height={[200, 250, 350]}
               alt="bird-dog-photo"
               className={styles.imagebird} />
-          </Circle>
-      </Box>
-        
-         <Box w="50%" className={styles.textflex} ml="150px">
-            <Text textAlign="center" fontFamily="octin-college, sans-serif;" ml={5} mr={35} mt={20} fontSize="2em" fontWeight={700} color="orange.400">
-                On Point's mission:
-                <br />
-                Our goal is to bring out the natural instincts in your Bird Dog.
-                <br />
+          
+      </Circle>
+      <Spacer />
+         <Box>
+            <Text textAlign="center" fontFamily="octin-college, sans-serif;" ml={[5, 5, 15]} mr={[5, 5, 20]} mt={8} fontSize={["14px", "18px", "32px"]} fontWeight={400} color="orange.400">
                 Field and Balanced Obedience Training
-                to improve your dog's behavior and performance in the field
+                to improve your dog's performance in the field
             </Text>
+        </Box>
+        </Container>
+        <Container mt={5}>
+        <Circle mb={5}>
+              <Image 
+              src="/images/rhett-unsplash.jpeg"
+              width={[200, 250, 350]}
+              height={[200, 250, 350]}
+              alt="bird-dog-photo"
+              className={styles.imagebird} />
+          
+      </Circle>
+        <Spacer />
+        <Box>
+              <Text fontFamily="octin-college, sans-serif;" textAlign="center" ml={[5, 5, 15]} mr={[5, 5, 20]} fontSize={["14px", "18px", "32px"]} fontWeight={400} color='orange.500'>
+                Hunt alongside your dog and feel the difference.
+                <br />
+                Trained dogs improve your efficieny and overall hunt.
+              </Text>
           </Box>
+        </Container>
+        <Container mt={5}>
+        <Circle mb={5}>
+              <Image 
+              src="/images/peggy-paulson-brittany.jpeg"
+              width={[200, 250, 350]}
+              height={[200, 250, 350]}
+              alt="bird-dog-photo"
+              className={styles.imagebird} />
+          
+      </Circle>
+        <Spacer />
+        <Box>
+              <Text fontFamily="octin-college, sans-serif;" textAlign="center" ml={[5, 5, 15]} mr={[5, 5, 20]} fontSize={["14px", "18px", "32px"]} fontWeight={400} color='orange.600'>
+                We work with 
+                <br />
+                All types and breeds of bird dogs.
+                <br />
+                Bring out your dogs natural instinct.
+              </Text>
+          </Box>
+        </Container>
     </SimpleGrid>
-    </div>
+   
   )
 }
