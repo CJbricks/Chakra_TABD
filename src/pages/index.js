@@ -5,7 +5,7 @@ import headImage from "../../public/images/peggy-paulson-brittany.jpeg";
 import HeaderBar from './HeaderBar.js';
 import Grid from './Grid.js';
 import AboutSection from './AboutSection.js';
-import Location from './Location.js';
+import Video from './Video.js';
 import MidBody from './MidBody.js';
 import BrickLogo from './BrickLogo.js';
 import Footer from './Footer.js';
@@ -28,7 +28,7 @@ export default function Home() {
       <BrickLogo />
         <HeaderBar />
           <AboutSection />
-          <Location />
+          <Video />
           <MidBody />
           <Grid />
           <Form />
