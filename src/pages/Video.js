@@ -11,7 +11,7 @@ export default function Video() {
     <>
       <Container>
         <Box alignItems='center' justifyContent='center'>
-          <AspectRatio maxW='1000px' ratio={1.65}>
+          <AspectRatio ratio={16 / 9}>
             <iframe 
             title="brittany-video" 
             id="ytvideo"
