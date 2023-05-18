@@ -10,12 +10,16 @@ export default function Video() {
   return (
     <>
       <Container>
-        <Box alignItems='center' justifyContent='center'objectFit="fill" w="700px">
-          <AspectRatio maxW='1000px' ratio={1}>
+        <Box alignItems='center' justifyContent='center'>
+          <AspectRatio maxW='1000px' ratio={1.65}>
             <iframe 
             title="brittany-video" 
+            id="ytvideo"
+            type="text/html"
             src="https://www.youtube.com/embed/xT5zE5oiqoY"
             alt="embedded-video-example" 
+            width='640'
+            height='360'
             allowFullScreen />
           </AspectRatio>
         </Box>
